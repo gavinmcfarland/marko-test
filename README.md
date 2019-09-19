@@ -1,4 +1,18 @@
-# Marko Starter Demo
+# Marko Test
+
+Trying to use marko for static site generator which supports these features
+
+- PostCSS
+- Markdown
+
+Do to a bug must be run using node v11.15.0
+
+Using nvm you can change version using the following command
+
+```bash
+nvm use 11.15.0
+```
+
 This repo demos the basic features of [`marko-starter`](https://github.com/marko-js/marko-starter).
 
 ## Install
