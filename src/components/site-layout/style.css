@@ -1,6 +1,4 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 @import 'karamel';
-
-body {
-    font-family: sans-serif;
-    user-select: all;
-}

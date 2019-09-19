@@ -4,23 +4,20 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width"/>
     <title>
-      <${input.title}/>
+    	<${input.title}/>
     </title>
   </head>
-  <body>
-    <header>
-      <img.logo src="./logo.png" alt="marko logo"/>
-      <h1>
-        <${input.title}/>
-      </h1>
-      <nav.menu>
-        <a href="/">home</a>
-        <a href="/hello/routing">routes</a>
-        <a href="/layouts">layouts</a>
-      </nav>
+  <body.p-10>
+    <header.flex>
+        <a href="/"><img src="./logo.svg"></a>
+        <nav.flex.flex-grow.justify-end style="line-height: 32px;">
+            <a.ml-8 href="/hello/routing">Routes</a>
+            <a.ml-8 href="/layouts">Layouts</a>
+			<a.ml-8 href="/test">Test</a>
+        </nav>
     </header>
-    <div.content>
+    <main.max-w-2.mx-auto>
       <${input.content}/>
-    </div>
+    </main>
   </body>
 </html>

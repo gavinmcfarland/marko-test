@@ -4,6 +4,8 @@ module.exports = {
       path: ['src', 'node_modules']
     },
     'postcss-nested': {},
+    'postcss-extend-rule': {},
     'autoprefixer': {},
+    'tailwindcss': {}
   }
 };
