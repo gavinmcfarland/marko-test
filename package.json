@@ -3,14 +3,19 @@
   "description": "Demo of how to build an app using marko-starter",
   "version": "1.0.0",
   "dependencies": {
+    "lasso-postcss": "^0.4.0",
     "marko": "^4.13.10",
-    "marko-starter": "^2.0.4"
+    "marko-starter": "^2.0.4",
+    "postcss": "^7.0.18"
   },
   "devDependencies": {
+    "autoprefixer": "^9.6.1",
     "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "^3.0.0",
     "marko-prettyprint": "^1.5.2",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.1.2",
     "prettier": "^1.15.2"
   },
   "license": "MIT",
