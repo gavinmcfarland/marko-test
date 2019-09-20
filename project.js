@@ -12,10 +12,6 @@ module.exports = require("marko-starter").projectConfig({
 				}
 			},
 		],
-
-		// outputDir: __dirname + '/dist/',
-		// bundlingEnabled: isProduction,
-		// minify: isProduction,
-		// fingerprintsEnabled: isProduction
+		minifyCSS: false, // must disable for postcss-import to work
 	},
 });

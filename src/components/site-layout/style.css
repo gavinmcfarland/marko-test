@@ -2,3 +2,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import 'karamel';
+@import './test.css';
+
+.red {
+	color: red;
+}
+
+.test {
+	@extend .red;
+}
