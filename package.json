@@ -16,7 +16,7 @@
         "marked": "^0.7.0",
         "marko": "^4.13.10",
         "marko-starter": "^2.0.4",
-        "postcss": "^7.0.18",
+        "postcss": "^8.2.10",
         "postcss-extend-rule": "^3.0.0",
         "react": "github:orktes/atom-react",
         "tailwindcss": "^1.1.2"
